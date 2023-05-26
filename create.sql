@@ -1,8 +1,8 @@
-CREATE DATABASE fatec;
+CREATE DATABASE mymarket;
 
 SHOW DATABASES;
 
-USE fatec;
+USE mymarket;
 
 
 CREATE TABLE produtos(
