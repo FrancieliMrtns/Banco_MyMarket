@@ -78,8 +78,8 @@ CREATE TABLE endereco(
 );
 
 CREATE TABLE clientes(
-	usu_id INT auto_increment,
-    primary key(usu_id)
+	cli_id INT auto_increment,
+    primary key(cli_id)
 );
 
 CREATE TABLE usuarios(
