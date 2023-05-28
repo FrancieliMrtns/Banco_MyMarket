@@ -1,4 +1,3 @@
-
 CREATE TABLE produtos(
 	prod_id INT auto_increment not null,
 	prod_cod_barras BIGINT UNIQUE,
@@ -34,15 +33,13 @@ CREATE TABLE categorias(
 );
 
 CREATE TABLE pedido_produto (
-	prod_id INT,
     ped_id INT auto_increment,
+	prod_id INT,
 	pprd_quantidade INT,
     pprd_valor DECIMAL(6,2),
     pprd_observacoes VARCHAR(80),
-    primary key(prod_id),
-    primary key(ped_id)
+    primary key(ped_id, prod_id)
 );
-
 
 
 CREATE TABLE pedidos(
