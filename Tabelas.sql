@@ -50,7 +50,7 @@ CREATE TABLE pedidos(
     ped_nota_fiscal VARCHAR(80),
     ped_data DATE,
     end_id INT,
-    cli_id INT,
+    usu_id INT,
     ped_status VARCHAR(80),
     primary key(ped_id)
 
@@ -73,14 +73,10 @@ CREATE TABLE endereco(
     end_bairro VARCHAR(20),
     end_complemento VARCHAR(12),
     end_cidade VARCHAR(30),
-    cli_id INT,
+    usu_id INT,
     primary key(end_id)
 );
 
-CREATE TABLE clientes(
-	cli_id INT auto_increment,
-    primary key(cli_id)
-);
 
 CREATE TABLE usuarios(
 	usu_id INT auto_increment,
