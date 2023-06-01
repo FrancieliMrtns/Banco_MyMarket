@@ -47,6 +47,8 @@ INSERT INTO endereco (end_tipo, end_logradouro, end_numero, end_bairro, end_comp
 INSERT INTO produtos (prod_cod_barras, prod_nome, prod_descricao, prod_preco, prod_imagem, prod_quantidade, cat_id) VALUES ('1000869','Maracujá','Maracujá doce', 'icone1', '2', frutas);
 
 /*PEDIDOS*/
-INSERT INTO pedidos (ped_nota_fiscal, ped_data, ped_status, end_id, usu_id) VALUES ('VEJO DEPOIS', '2023-05-10','A caminho',  );
+INSERT INTO pedidos (ped_nota_fiscal, ped_data, ped_status, end_id, usu_id) VALUES ('VEJO DEPOIS', '2023-05-10','A caminho');
 
-/**/
+/*pesquisa de satis*/
+/*compra_produto*/
+/*pedido produto*/
